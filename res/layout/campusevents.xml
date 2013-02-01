@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:background="#ffdc97"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  	<LinearLayout 
+  		android:id="@+id/campusEventsHeader"
+  	    android:paddingBottom="0dip"
+  	    android:background="#000000"
+        android:layout_alignParentTop="true"
+        android:layout_width="fill_parent"
+        android:layout_height="65dip">
+	        <ImageView
+	        android:src="@drawable/title"
+	        android:paddingBottom="0dip"
+	        android:layout_alignParentTop="true"
+	        android:layout_width="wrap_content"
+	        android:scaleType="centerInside"
+	        android:layout_height="65dip"/>
+        </LinearLayout>
+  		<ScrollView
+  		android:layout_below="@id/campusEventsHeader"
+  		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+    	<TableLayout
+			android:id="@+id/campus_events_table"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+    	</TableLayout>
+    	</ScrollView>
+	   <TableLayout
+			android:id="@+id/menu_table"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true">
+			<TableRow
+				android:scaleType="fitXY">
+			 <ImageView
+				android:scaleType="fitXY"
+			 	android:id="@+id/maclists_placeholder"
+			 	android:src="@drawable/placeholder_image"
+			 	android:gravity="center" 	
+	           	android:layout_column="1"
+	           	android:paddingLeft="80dip"
+	           	android:paddingBottom="25dip" />
+	           <ImageView
+	           	android:scaleType="fitXY"
+	           	android:layout_column="1"
+	           	android:padding="3dip" />
+	           <ImageView
+	           	android:scaleType="fitXY"
+	           	android:layout_column="1"
+	           	android:padding="3dip" />
+	        </TableRow>
+		</TableLayout>
+</RelativeLayout>

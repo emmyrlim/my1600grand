@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user"></string>
+    <string name="pass"></string>
+</resources>
+<!-- Don't commit your own version of this. This we will user for testing purposes currently. -->

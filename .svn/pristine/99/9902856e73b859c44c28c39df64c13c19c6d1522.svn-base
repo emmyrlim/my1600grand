@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, My1600Grand!</string>
+    <string name="app_name">My 1600Grand</string>
+    <string name="campus_events_banner">Campus Events Go Here</string>
+    <string name="default_search">Enter all or part of a first name, last name, e-mail username, department/office name, or organization name to search the directory.</string>
+    <string name="directoryName">Student Directory</string>
+    <string name="helpName">Help</string>
+    <string name="campusTools">Campus Tools</string>
+    <string name="campusEvents">Campus Events</string>
+    <string name="cafeMacName">Cafe Mac Menu</string>
+    <string name="search_button">Search</string>
+    <string name="campusevents_button">Campus Events</string>
+    <string name="menu_button">Cafe Mac Menu</string>
+    <string name="preferences">Preferences</string>
+    <string name="notConnected">You are not connected to the internet. Please connect to the internet and restart the application.</string>
+</resources>

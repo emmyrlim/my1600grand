@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:key = "first_preferencescreen"> 
+<PreferenceCategory
+
+        android:title="Default Screen Selection">
+        <ListPreference
+            android:title="Choose default screen:"
+            android:key="listPref"
+           	android:defaultValue="1"
+            android:entries="@array/listArray"
+            android:entryValues="@array/listValues" />
+	</PreferenceCategory>
+</PreferenceScreen>

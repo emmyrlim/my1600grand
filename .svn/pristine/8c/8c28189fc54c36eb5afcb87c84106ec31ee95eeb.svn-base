@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:padding="4dip"
+    android:clickable="true">
+    <RelativeLayout
+    	android:id="@+id/topsection"
+    	android:layout_alignParentTop="true"
+    	android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+    <ImageView
+		android:layout_alignParentLeft="true"
+    	android:id="@+id/campus_events_item_topleft"
+    	android:src="@drawable/topleft_corner"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" />
+    <ImageView
+    	android:layout_alignParentRight="true"
+    	android:id="@+id/campus_events_item_topright"
+    	android:src="@drawable/topright_corner"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" />
+   	 <ImageView
+   	 	android:scaleType="fitXY"
+   	 	android:layout_toRightOf="@id/campus_events_item_topleft"
+   	 	android:layout_toLeftOf="@id/campus_events_item_topright"
+    	android:id="@+id/campus_events_item_topborder"
+    	android:src="@drawable/top_border"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout 
+    	android:layout_below="@id/topsection"
+    	android:id="@+id/middlesection"
+    	android:layout_width="wrap_content"
+	   	android:layout_height="wrap_content" >
+   	<ImageView
+   		android:scaleType="fitXY"
+		android:layout_alignParentLeft="true"
+    	android:id="@+id/campus_events_item_middle_left"
+    	android:src="@drawable/left_border"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" />
+    <TextView
+    	android:layout_toRightOf="@id/campus_events_item_middle_left"
+    	android:scrollHorizontally="false"
+	   	android:id="@+id/campus_events_item_text"
+	   	android:layout_width="fill_parent"
+	   	android:layout_height="wrap_content" 
+	   	android:inputType="textMultiLine"
+	   	android:layout_weight="1"
+	   	android:ellipsize="none"
+	   	android:textColor="#000000"
+	   	android:textSize="12sp"
+	   	android:background="#ffffff"
+	   	android:gravity="left"/>
+	   	<ImageView
+   		android:scaleType="fitXY"
+   		android:layout_below="@id/campus_events_item_topright"
+		android:layout_alignParentRight="true"
+    	android:id="@+id/campus_events_item_middle_right"
+    	android:src="@drawable/right_border"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout 
+    	android:layout_below="@id/middlesection"
+    	android:id="@+id/bottomsection"
+    	android:layout_width="wrap_content"
+	   	android:layout_height="wrap_content" >
+   	<ImageView
+   		android:scaleType="fitXY"
+		android:layout_alignParentLeft="true"
+    	android:id="@+id/campus_events_item_bottomleft"
+    	android:src="@drawable/bottomleft_corner"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" />	
+ 	<ImageView
+    	android:layout_alignParentRight="true"
+    	android:id="@+id/campus_events_item_bottomright"
+    	android:src="@drawable/bottomright_corner"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" />
+   	 <ImageView
+   	 	android:scaleType="fitXY"
+   	 	android:layout_toRightOf="@id/campus_events_item_bottomleft"
+   	 	android:layout_toLeftOf="@id/campus_events_item_bottomright"
+    	android:id="@+id/campus_events_item_bottomborder"
+    	android:src="@drawable/bottom_border"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>
